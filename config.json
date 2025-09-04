@@ -1,0 +1,61 @@
+{
+  "paths": {
+    "main_dir": "C:\\Work\\1_Main",
+    "broll_dir": "C:\\Work\\2_B-Roll",
+    "assets_dir": "C:\\Work\\3_Assets",
+    "export_dir": "C:\\Work\\4_Export",
+    "intro": "intro.mp4",
+    "outro": "outro.mp4",
+    "logo": "logo.png",
+    "music": "music.mp3"
+  },
+  "options": {
+    "use_intro": true,
+    "use_outro": true,
+    "use_logo": true,
+    "use_music": true,
+    "watch_mode": false
+  },
+  "video": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "transition_sec": 0.5,
+    "crf": 20,
+    "preset": "veryfast"
+  },
+  "logo": {
+    "position": "top_left",
+    "x": 24,
+    "y": 24,
+    "scale_width": 0,
+    "opacity": 1.0
+  },
+  "music": {
+    "ducking": {
+      "ratio": 12.0,
+      "threshold": -18.0,
+      "attack": 5.0,
+      "release": 200.0
+    },
+    "music_volume_db": -12.0
+  },
+  "upload": {
+    "enable_rclone": false,
+    "rclone_remote": "gdrive:",
+    "rclone_path": "AutoVideo/",
+    "enable_drive_api": false
+  },
+  "broll": {
+    "broll1": {
+      "enable": true,
+      "start_time": 1.0,
+      "duration": 2.0
+    },
+    "broll2": {
+      "enable": true,
+      "start_time": 4.0,
+      "duration": 5.0
+    }
+  }
+}
